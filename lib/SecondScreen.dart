@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class PreviewScreen extends StatelessWidget {
+class SecondScreen extends StatelessWidget {
   final String text;
   final double fontSize;
 
-  const PreviewScreen({
+  const SecondScreen({
     super.key,
     required this.text,
     required this.fontSize,
