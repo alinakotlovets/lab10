@@ -124,7 +124,7 @@ class _FirstScreenState extends State<FirstScreen> {
     final result = await Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => PreviewScreen(
+        builder: (context) => SecondScreen(
           text: _textController.text,
           fontSize: _fontSize,
         ),
