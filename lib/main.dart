@@ -44,7 +44,12 @@ class MyApp extends StatelessWidget {
               foregroundColor: Colors.white,
               textStyle: const TextStyle(fontSize: 15),
             ),
-        )
+        ),
+         sliderTheme: const SliderThemeData(
+          activeTrackColor: Color.fromRGBO(92, 73, 134, 1),
+          thumbColor: Color.fromRGBO(92, 73, 134, 1),
+          valueIndicatorColor: Color.fromRGBO(92, 73, 134, 1),
+        ),
       ),
       home: FirstScreen(),
     );
